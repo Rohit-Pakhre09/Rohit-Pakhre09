@@ -16,14 +16,8 @@ My journey in development is driven by a passion for creating solutions that mak
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Rohit-Pakhre09&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit-Pakhre09&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Rohit-Pakhre09&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Rohit-Pakhre09&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-[![](https://visitcount.itsvg.in/api?id=Rohit-Pakhre09&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ## Current Focus:
 - Strengthening my skills in full-stack development, with an emphasis on creating dynamic and responsive user experiences and building robust backend systems.
