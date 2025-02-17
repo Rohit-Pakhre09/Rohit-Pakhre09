@@ -1,3 +1,5 @@
+<img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/8325f2f27886b5527ec20db294ab0b690fa40b0d/github-header-image.png">
+
 # About Me
 
 Welcome to my GitHub profile! I’m an aspiring **full-stack developer** committed to mastering the art of building scalable, efficient, and user-centric applications. I’m currently pursuing a deep understanding of both frontend and backend development to craft seamless, high-performance software solutions.
