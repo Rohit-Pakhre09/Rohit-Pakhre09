@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I’m an aspiring **full-stack developer** committ
 My journey in development is driven by a passion for creating solutions that make an impact, while continuously learning and evolving with industry best practices. I am focused on delivering clean, maintainable code, and exploring innovative ways to solve real-world challenges.
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rohit._.ix) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-pakhre) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pakhrerohit281@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-pakhre) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pakhrerohit281@gmail.com) 
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
