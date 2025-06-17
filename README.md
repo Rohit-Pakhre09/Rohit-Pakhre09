@@ -63,5 +63,5 @@ My journey in development is driven by a passion for creating solutions that mak
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://raw.githubusercontent.com/Rohit-Pakhre09/Rohit-Pakhre09/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
 
