@@ -60,3 +60,8 @@ My journey in development is driven by a passion for creating solutions that mak
 ## Current Focus:
 - Strengthening my skills in full-stack development, with an emphasis on creating dynamic and responsive user experiences and building robust backend systems.
 - Expanding my knowledge of **DevOps** and cloud technologies to streamline application deployment and scalability.
+
+## 🐍 Contribution Snake
+
+![snake gif](https://raw.githubusercontent.com/Rohit-Pakhre09/Rohit-Pakhre09/output/github-contribution-grid-snake.svg)
+
