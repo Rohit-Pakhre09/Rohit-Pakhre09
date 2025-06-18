@@ -61,7 +61,7 @@ My journey in development is driven by a passion for creating solutions that mak
 - Strengthening my skills in full-stack development, with an emphasis on creating dynamic and responsive user experiences and building robust backend systems.
 - Expanding my knowledge of **DevOps** and cloud technologies to streamline application deployment and scalability.
 
-## 🐍 Contribution Snake
+## 🐍 Commit Rhythm
 
 ![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
 
