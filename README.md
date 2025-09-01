@@ -1,6 +1,6 @@
 <img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/main/github-header-image.png" alt="Header Banner" />
 
-# 👋 Hey there, I’m Rohit Pakhare  
+# 🔗 Connecting Logic With Creativity Through Code
 
 I’m an **aspiring Full-Stack Developer** passionate about building scalable, user-friendly, and impactful applications.  
 Currently, I’m sharpening my skills in **frontend + backend development**, with the goal of delivering **clean, maintainable, and production-ready solutions**.  
