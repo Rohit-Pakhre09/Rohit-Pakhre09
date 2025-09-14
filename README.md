@@ -44,7 +44,6 @@ Currently, I’m sharpening my skills in **frontend + backend development**, wit
 ## 📊 GitHub Insights  
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Rohit-Pakhre09&theme=radical&hide_border=true&show_icons=true" height="180px"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rohit-Pakhre09&theme=radical&hide_border=true" height="180px"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit-Pakhre09&theme=radical&hide_border=true&layout=compact" height="180px"/>
 </p>
