@@ -1,64 +1,68 @@
 <img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/main/github-header-image.png" alt="Header Banner" />
 
-# 🔗 Connecting Logic With Creativity Through Code
+<h1>Hi there, I'm Rohit Pakhre 👋</h1>
 
-I’m an **aspiring Full-Stack Developer** passionate about building scalable, user-friendly, and impactful applications.  
-Currently, I’m sharpening my skills in **frontend + backend development**, with the goal of delivering **clean, maintainable, and production-ready solutions**.  
+<h3>Full-Stack Developer | Connecting Logic With Creativity Through Code</h3>
 
-💡 *Always learning. Always building. Always improving.*  
+<p>I'm a passionate Full-Stack Developer focused on building scalable, user-friendly, and impactful web applications. My goal is to write clean, maintainable, and production-ready code that solves real-world problems. I thrive in environments that challenge me to learn, adapt, and grow.</p>
+
+<p><em>• Always learning. Always building. Always improving.</em></p>
 
 ---
 
-## 🌐 Connect With Me  
-
+### 🌐 Connect With Me
 <p>
   <a href="https://linkedin.com/in/rohit-pakhre">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:pakhrerohit281@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </p>
 
 ---
 
-## 💻 Tech Stack  
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</p>
-
+### 🎯 My Current Focus
+- 🚀 Mastering the **MERN Stack** (MongoDB, Express.js, React, Node.js) and strengthening my knowledge of **MySQL**.
+- ⚡ Exploring **DevOps principles** with **AWS, Docker, and CI/CD** to build robust deployment pipelines.
+- 🧩 Deepening my understanding of **Data Structures, Algorithms, and System Design**.
 
 ---
 
-## 📊 GitHub Insights  
+### 💻 My Tech Stack & Tools
 
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rohit-Pakhre09&theme=radical&hide_border=true" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit-Pakhre09&theme=radical&hide_border=true&layout=compact" height="180px"/>
-</p>
+<table>
+  <tr>
+    <td align="center"><strong>Frontend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+      <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux"/>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Backend & Databases</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+     </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Tools & Deployment</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+      <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🎯 Current Focus  
-
-- 🚀 Mastering **Full-Stack Development** (React, Node.js, Express, MongoDB, MySQL)  
-- ⚡ Exploring **DevOps & Cloud (AWS, Docker, CI/CD)** for scalable deployments  
-- 🧩 Improving **DSA & System Design** for interviews and real-world projects  
-
----
-
-## 🐍 Contribution Rhythm  
+### 🐍 My Contribution Rhythm
 
 <p align="center">
   <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
