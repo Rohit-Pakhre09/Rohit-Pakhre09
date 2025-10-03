@@ -1,5 +1,4 @@
-<img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/main/github-header-image.png" alt="Header Banner" />
-
+<!-- <img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/main/github-header-image.png" alt="Header Banner" /> -->
 <h1>Hi there, I'm Rohit Pakhre 👋</h1>
 
 <h3>Full-Stack Developer | Connecting Logic With Creativity Through Code</h3>
