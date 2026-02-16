@@ -38,7 +38,7 @@
   <tr>
     <td align="center" width="150"><strong>Frontend</strong></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind" alt="Frontend Skills" />
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind,bootstrap" alt="Frontend Skills" />
     </td>
   </tr>
   <tr>
