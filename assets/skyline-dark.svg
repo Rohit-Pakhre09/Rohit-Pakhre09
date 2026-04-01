@@ -1,46 +1,80 @@
 <svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Animated developer skyline</title>
-  <desc id="desc">A futuristic night skyline with glowing buildings, scanning light, and animated windows.</desc>
+  <title id="title">High-motion developer skyline</title>
+  <desc id="desc">A futuristic animated skyline with moving drones, traffic, beams, clouds, and pulsing windows.</desc>
   <defs>
     <linearGradient id="bg" x1="480" y1="0" x2="480" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#07111F"/>
-      <stop offset="0.52" stop-color="#10233E"/>
-      <stop offset="1" stop-color="#050A13"/>
+      <stop offset="0" stop-color="#050C16"/>
+      <stop offset="0.48" stop-color="#10233E"/>
+      <stop offset="1" stop-color="#04070E"/>
     </linearGradient>
     <linearGradient id="haze" x1="0" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00E1FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00E1FF" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#00E1FF" stop-opacity="0.32"/>
       <stop offset="1" stop-color="#00E1FF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#91F7FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#91F7FF" stop-opacity="0"/>
+    </linearGradient>
     <linearGradient id="ground" x1="0" y1="0" x2="0" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0A1627"/>
+      <stop offset="0" stop-color="#0B1728"/>
       <stop offset="1" stop-color="#04080F"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <symbol id="windowCyan" viewBox="0 0 10 14">
-      <rect x="1" y="1" width="8" height="12" rx="1.3" fill="#76F3FF" fill-opacity="0.9"/>
+      <rect x="1" y="1" width="8" height="12" rx="1.3" fill="#76F3FF" fill-opacity="0.95"/>
     </symbol>
     <symbol id="windowAmber" viewBox="0 0 10 14">
       <rect x="1" y="1" width="8" height="12" rx="1.3" fill="#F8B84E" fill-opacity="0.92"/>
     </symbol>
+    <symbol id="drone" viewBox="0 0 44 16">
+      <rect x="14" y="6" width="16" height="4" rx="2" fill="#BFFAFF"/>
+      <circle cx="8" cy="8" r="4" fill="#00E1FF" fill-opacity="0.95"/>
+      <circle cx="36" cy="8" r="4" fill="#00E1FF" fill-opacity="0.95"/>
+      <rect x="3" y="7" width="38" height="2" rx="1" fill="#7DEEFF"/>
+    </symbol>
+    <symbol id="carBlue" viewBox="0 0 28 10">
+      <rect x="2" y="3" width="24" height="4" rx="2" fill="#73F2FF"/>
+      <circle cx="7" cy="8" r="1.4" fill="#B3FBFF"/>
+      <circle cx="21" cy="8" r="1.4" fill="#B3FBFF"/>
+    </symbol>
+    <symbol id="carAmber" viewBox="0 0 28 10">
+      <rect x="2" y="3" width="24" height="4" rx="2" fill="#F8B84E"/>
+      <circle cx="7" cy="8" r="1.4" fill="#FFE1A5"/>
+      <circle cx="21" cy="8" r="1.4" fill="#FFE1A5"/>
+    </symbol>
   </defs>
+
   <rect width="960" height="320" fill="url(#bg)"/>
-  <circle cx="804" cy="70" r="36" fill="#B9EEFF" fill-opacity="0.13"/>
-  <circle cx="804" cy="70" r="57" fill="#B9EEFF" fill-opacity="0.05"/>
-  <g opacity="0.8">
+  <circle cx="804" cy="68" r="34" fill="#D6F5FF" fill-opacity="0.18"/>
+  <circle cx="804" cy="68" r="56" fill="#D6F5FF" fill-opacity="0.06"/>
+
+  <g opacity="0.5" filter="url(#softGlow)">
+    <ellipse cx="120" cy="68" rx="70" ry="12" fill="#6ABBE0" fill-opacity="0.16">
+      <animate attributeName="cx" values="120;260;120" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="420" cy="54" rx="96" ry="14" fill="#6ABBE0" fill-opacity="0.14">
+      <animate attributeName="cx" values="420;600;420" dur="24s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="760" cy="92" rx="120" ry="16" fill="#6ABBE0" fill-opacity="0.12">
+      <animate attributeName="cx" values="760;600;760" dur="21s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g opacity="0.75">
     <circle cx="120" cy="56" r="1.5" fill="#E9FBFF"/>
     <circle cx="250" cy="84" r="1.2" fill="#E9FBFF"/>
     <circle cx="345" cy="44" r="1.8" fill="#E9FBFF"/>
@@ -49,11 +83,13 @@
     <circle cx="662" cy="61" r="1.7" fill="#E9FBFF"/>
     <circle cx="888" cy="48" r="1.6" fill="#E9FBFF"/>
   </g>
+
   <g opacity="0.5" filter="url(#softGlow)">
     <path d="M20 112C108 78 214 78 298 112C382 146 470 149 550 113C644 70 750 74 938 132" stroke="#1FD8FF" stroke-width="2.2" stroke-linecap="round">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M20 112C108 78 214 78 298 112C382 146 470 149 550 113C644 70 750 74 938 132;M20 120C124 86 228 68 318 104C400 137 492 141 568 110C664 70 760 88 938 126;M20 112C108 78 214 78 298 112C382 146 470 149 550 113C644 70 750 74 938 132"/>
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M20 112C108 78 214 78 298 112C382 146 470 149 550 113C644 70 750 74 938 132;M20 122C124 86 228 68 318 104C400 137 492 141 568 110C664 70 760 88 938 126;M20 112C108 78 214 78 298 112C382 146 470 149 550 113C644 70 750 74 938 132"/>
     </path>
   </g>
+
   <g>
     <rect x="0" y="240" width="960" height="80" fill="url(#ground)"/>
     <rect x="44" y="150" width="72" height="90" rx="3" fill="#09131F"/>
@@ -71,54 +107,104 @@
     <rect x="778" y="94" width="68" height="146" rx="3" fill="#112240"/>
     <rect x="840" y="160" width="76" height="80" rx="3" fill="#0B1726"/>
   </g>
-  <g opacity="0.35">
+
+  <g opacity="0.34">
     <rect x="92" y="120" width="3" height="120" fill="#67EBFF"/>
     <rect x="285" y="132" width="2.5" height="108" fill="#67EBFF"/>
     <rect x="507" y="60" width="3" height="180" fill="#67EBFF"/>
     <rect x="697" y="76" width="3" height="164" fill="#67EBFF"/>
     <rect x="811" y="94" width="3" height="146" fill="#67EBFF"/>
   </g>
+
   <g filter="url(#softGlow)">
-    <use href="#windowCyan" x="58" y="164"><animate attributeName="opacity" values="0.25;1;0.45;0.25" dur="3.4s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="78" y="164"><animate attributeName="opacity" values="1;0.3;1" dur="2.9s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="104" y="136"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.6s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="124" y="136"><animate attributeName="opacity" values="1;0.35;1" dur="3.6s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="170" y="186"><animate attributeName="opacity" values="0.3;0.9;0.5;0.3" dur="3.2s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="198" y="186"><animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="234" y="114"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="258" y="114"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="300" y="148"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="342" y="98"><animate attributeName="opacity" values="1;0.3;1" dur="3.8s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="366" y="98"><animate attributeName="opacity" values="0.25;1;0.25" dur="4.8s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="426" y="124"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.7s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="474" y="78"><animate attributeName="opacity" values="1;0.35;1" dur="4.4s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="500" y="78"><animate attributeName="opacity" values="0.35;1;0.35" dur="5.2s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="526" y="78"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.3s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="558" y="140"><animate attributeName="opacity" values="1;0.35;1" dur="4.1s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="610" y="158"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.7s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="670" y="94"><animate attributeName="opacity" values="1;0.25;1" dur="3.5s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="696" y="94"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.9s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="722" y="94"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="748" y="126"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.6s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="792" y="110"><animate attributeName="opacity" values="0.35;1;0.35" dur="5.1s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="818" y="110"><animate attributeName="opacity" values="1;0.3;1" dur="3.9s" repeatCount="indefinite"/></use>
-    <use href="#windowAmber" x="862" y="176"><animate attributeName="opacity" values="1;0.4;1" dur="3.8s" repeatCount="indefinite"/></use>
-    <use href="#windowCyan" x="888" y="176"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.5s" repeatCount="indefinite"/></use>
+    <rect x="474" y="82" width="54" height="18" rx="4" fill="#091B2E" stroke="#6CF0FF" stroke-opacity="0.4"/>
+    <text x="485" y="95" fill="#8DF5FF" font-family="'Segoe UI', sans-serif" font-size="9" letter-spacing="2">SYSTEM ONLINE</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="3.6s" repeatCount="indefinite"/>
   </g>
+
+  <g filter="url(#softGlow)">
+    <use href="#windowCyan" x="58" y="164"><animate attributeName="opacity" values="0.2;1;0.35;1;0.2" dur="2.6s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="78" y="164"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="104" y="136"><animate attributeName="opacity" values="0.4;1;0.1;1;0.4" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="124" y="136"><animate attributeName="opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="170" y="186"><animate attributeName="opacity" values="0.2;1;0.5;1;0.2" dur="2.4s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="198" y="186"><animate attributeName="opacity" values="1;0.25;1" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="234" y="114"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="258" y="114"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="300" y="148"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="342" y="98"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="366" y="98"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="426" y="124"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="474" y="112"><animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="500" y="112"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="526" y="112"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.3s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="558" y="140"><animate attributeName="opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="610" y="158"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="670" y="94"><animate attributeName="opacity" values="1;0.25;1" dur="2.5s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="696" y="94"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="722" y="94"><animate attributeName="opacity" values="1;0.3;1" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="748" y="126"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="792" y="110"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.3s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="818" y="110"><animate attributeName="opacity" values="1;0.15;1" dur="2.3s" repeatCount="indefinite"/></use>
+    <use href="#windowAmber" x="862" y="176"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></use>
+    <use href="#windowCyan" x="888" y="176"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></use>
+  </g>
+
+  <g opacity="0.8" filter="url(#glow)">
+    <path d="M248 98L228 0H268L248 98Z" fill="url(#beam)">
+      <animateTransform attributeName="transform" type="rotate" values="-7 248 98;7 248 98;-7 248 98" dur="6.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M506 60L476 0H536L506 60Z" fill="url(#beam)">
+      <animateTransform attributeName="transform" type="rotate" values="5 506 60;-6 506 60;5 506 60" dur="5.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M700 76L676 0H724L700 76Z" fill="url(#beam)">
+      <animateTransform attributeName="transform" type="rotate" values="-4 700 76;6 700 76;-4 700 76" dur="7.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
   <g filter="url(#glow)">
     <rect x="-160" y="88" width="140" height="150" fill="url(#haze)" transform="rotate(8 -160 88)">
-      <animate attributeName="x" values="-220;1040" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-220;1040" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-220" y="110" width="100" height="110" fill="url(#haze)" transform="rotate(6 -220 110)">
+      <animate attributeName="x" values="-260;1040" dur="7.1s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <g opacity="0.75" filter="url(#softGlow)">
-    <path d="M24 268H936" stroke="#1BCFFF" stroke-opacity="0.35" stroke-width="2"/>
-    <circle cx="210" cy="268" r="3.5" fill="#74F0FF">
-      <animate attributeName="cx" values="120;840;120" dur="10s" repeatCount="indefinite"/>
+
+  <g filter="url(#softGlow)">
+    <use href="#drone" x="80" y="96">
+      <animate attributeName="x" values="40;860;40" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="96;82;96;108;96" dur="6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#drone" x="760" y="132" opacity="0.7">
+      <animate attributeName="x" values="820;120;820" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="132;120;132;142;132" dur="5.4s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <g opacity="0.85" filter="url(#softGlow)">
+    <path d="M24 268H936" stroke="#1BCFFF" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M120 280H840" stroke="#F8B84E" stroke-opacity="0.22" stroke-width="1.5"/>
+    <use href="#carBlue" x="80" y="262">
+      <animate attributeName="x" values="-40;940" dur="8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#carAmber" x="880" y="274">
+      <animate attributeName="x" values="940;-60" dur="9.5s" repeatCount="indefinite"/>
+    </use>
+    <circle cx="180" cy="268" r="3.5" fill="#74F0FF">
+      <animate attributeName="cx" values="100;860;100" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="600" cy="268" r="2.8" fill="#F8B84E">
-      <animate attributeName="cx" values="860;160;860" dur="12s" repeatCount="indefinite"/>
+    <circle cx="640" cy="280" r="2.8" fill="#F8B84E">
+      <animate attributeName="cx" values="860;160;860" dur="7.2s" repeatCount="indefinite"/>
     </circle>
   </g>
+
+  <g opacity="0.6" filter="url(#softGlow)">
+    <rect x="0" y="232" width="960" height="3" fill="#1BD3FF" fill-opacity="0.12">
+      <animate attributeName="opacity" values="0.08;0.25;0.08" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
   <text x="48" y="48" fill="#E8FBFF" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">ROHIT // CODE SKYLINE</text>
   <text x="48" y="72" fill="#9ECFDE" font-family="'Segoe UI', sans-serif" font-size="12" letter-spacing="3.5">BUILDING SYSTEMS . SHIPPING IDEAS . LEARNING DAILY</text>
 </svg>
