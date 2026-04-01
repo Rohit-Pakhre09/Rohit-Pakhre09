@@ -152,6 +152,6 @@
     <path d="M0 300C136 270 248 274 338 298C438 324 540 324 646 296C754 268 860 270 960 294V320H0Z" fill="#DDEAF9"/>
   </g>
 
-  <text x="48" y="48" fill="#223245" font-family="'Segoe UI', sans-serif" font-size="25" font-weight="700" letter-spacing="1.2">ROHIT // COSMIC CODE SYSTEM</text>
-  <text x="48" y="72" fill="#577592" font-family="'Segoe UI', sans-serif" font-size="12" letter-spacing="3.5">FULL-STACK JOURNEY . ORBITING IDEAS . BUILDING WORLDS</text>
+  <text x="912" y="48" text-anchor="end" fill="#223245" font-family="'Segoe UI', sans-serif" font-size="25" font-weight="700" letter-spacing="1.2">ROHIT // COSMIC CODE SYSTEM</text>
+  <text x="912" y="72" text-anchor="end" fill="#577592" font-family="'Segoe UI', sans-serif" font-size="12" letter-spacing="3.5">FULL-STACK JOURNEY . ORBITING IDEAS . BUILDING WORLDS</text>
 </svg>
