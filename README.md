@@ -62,7 +62,7 @@
 
 ---
 
-### My Coding Skyline
+### My Cosmic Code System
 
 <p align="left">
   <picture>
@@ -76,7 +76,7 @@
     />
     <img
       src="./assets/skyline-light.svg"
-      alt="Animated coding skyline"
+      alt="Animated sci-fi solar system"
     />
   </picture>
 </p>
