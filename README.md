@@ -25,9 +25,9 @@
 ---
 
 ### My Current Focus
-- Mastering the **MERN Stack** (MongoDB, Express.js, React, Node.js) and strengthening my knowledge of **MySQL**.
-- Exploring **DevOps principles** with **AWS, Docker, and CI/CD** to build robust deployment pipelines.
-- Deepening my understanding of **Data Structures, Algorithms, and System Design**.
+- 🚀 Strengthening my skills in the **MERN Stack** (MongoDB, Express.js, React, and Node.js) while improving my knowledge of **MySQL**.
+- 🛠️ Building practical full-stack projects and focusing on writing cleaner, more scalable, and user-friendly applications.
+- 🧠 Deepening my understanding of **Data Structures, Algorithms, and System Design**.
 
 ---
 
