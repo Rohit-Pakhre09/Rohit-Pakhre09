@@ -25,9 +25,9 @@
 ---
 
 ### My Current Focus
-- 🚀 Strengthening my skills in the **MERN Stack** (MongoDB, Express.js, React, and Node.js) while improving my knowledge of **MySQL**.
-- 🛠️ Building practical full-stack projects and focusing on writing cleaner, more scalable, and user-friendly applications.
-- 🧠 Deepening my understanding of **Data Structures, Algorithms, and System Design**.
+- Strengthening my skills in the **MERN Stack** (MongoDB, Express.js, React, and Node.js) while improving my knowledge of **MySQL**.
+- Building practical full-stack projects and focusing on writing cleaner, more scalable, and user-friendly applications.
+- Deepening my understanding of **Data Structures, Algorithms, and System Design**.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ---
 
-### My Cosmic Code System
+### Skill Galaxy + Project Constellation
 
 <p align="left">
   <picture>
@@ -76,7 +76,13 @@
     />
     <img
       src="./assets/skyline-light.svg"
-      alt="Animated sci-fi solar system"
+      alt="Animated skill galaxy with connected project constellation"
     />
   </picture>
+</p>
+
+<p align="left">
+  <a href="https://rohit-pakhre-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Try-Interactive%20Galaxy-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Interactive Galaxy" />
+  </a>
 </p>

@@ -1,47 +1,31 @@
-<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Sci-fi coding solar system</title>
-  <desc id="desc">A futuristic solar system with glowing planets, orbital rings, satellites, and drifting stars.</desc>
+<svg width="960" height="340" viewBox="0 0 960 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Skill Galaxy and Project Constellation</title>
+  <desc id="desc">Animated skill galaxy orbiting around a core with connected project constellation nodes.</desc>
   <defs>
-    <linearGradient id="bg" x1="480" y1="0" x2="480" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="340" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#040814"/>
-      <stop offset="0.52" stop-color="#0C1730"/>
+      <stop offset="0.56" stop-color="#0A1733"/>
       <stop offset="1" stop-color="#03060E"/>
     </linearGradient>
-    <radialGradient id="sunCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 160) rotate(90) scale(68)">
-      <stop offset="0" stop-color="#FFF3B2"/>
-      <stop offset="0.42" stop-color="#FFC857"/>
-      <stop offset="1" stop-color="#FF7B00"/>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 170) rotate(90) scale(68)">
+      <stop offset="0" stop-color="#FFF5C7"/>
+      <stop offset="0.46" stop-color="#FFCB61"/>
+      <stop offset="1" stop-color="#FF8B2A"/>
     </radialGradient>
-    <radialGradient id="planetBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
-      <stop offset="0" stop-color="#A7F6FF"/>
-      <stop offset="1" stop-color="#1AA8FF"/>
-    </radialGradient>
-    <radialGradient id="planetPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
-      <stop offset="0" stop-color="#FFD0F3"/>
-      <stop offset="1" stop-color="#E35BFF"/>
-    </radialGradient>
-    <radialGradient id="planetMint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
-      <stop offset="0" stop-color="#D4FFE8"/>
-      <stop offset="1" stop-color="#16D98A"/>
-    </radialGradient>
-    <radialGradient id="planetIce" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
-      <stop offset="0" stop-color="#F6FBFF"/>
-      <stop offset="1" stop-color="#74B9FF"/>
-    </radialGradient>
-    <linearGradient id="ringStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4BE4FF" stop-opacity="0.1"/>
-      <stop offset="0.5" stop-color="#4BE4FF" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#4BE4FF" stop-opacity="0.1"/>
+    <linearGradient id="ring" x1="120" y1="54" x2="394" y2="286" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74D8FF" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#74D8FF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#74D8FF" stop-opacity="0.18"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -49,125 +33,119 @@
     </filter>
   </defs>
 
-  <rect width="960" height="320" fill="url(#bg)"/>
+  <rect width="960" height="340" fill="url(#bg)"/>
 
-  <g opacity="0.85">
-    <circle cx="74" cy="42" r="1.5" fill="#E8F7FF"/>
-    <circle cx="126" cy="86" r="1.1" fill="#E8F7FF"/>
-    <circle cx="304" cy="44" r="1.6" fill="#E8F7FF"/>
-    <circle cx="372" cy="92" r="1.1" fill="#E8F7FF"/>
-    <circle cx="516" cy="36" r="1.7" fill="#E8F7FF"/>
-    <circle cx="610" cy="78" r="1.3" fill="#E8F7FF"/>
-    <circle cx="744" cy="46" r="1.8" fill="#E8F7FF"/>
-    <circle cx="874" cy="70" r="1.4" fill="#E8F7FF"/>
-    <circle cx="910" cy="38" r="1.2" fill="#E8F7FF"/>
+  <g opacity="0.82">
+    <circle cx="54" cy="36" r="1.2" fill="#DBEEFF"/>
+    <circle cx="128" cy="72" r="1.3" fill="#DBEEFF"/>
+    <circle cx="198" cy="34" r="1.2" fill="#DBEEFF"/>
+    <circle cx="318" cy="64" r="1.1" fill="#DBEEFF"/>
+    <circle cx="458" cy="32" r="1.4" fill="#DBEEFF"/>
+    <circle cx="608" cy="56" r="1.2" fill="#DBEEFF"/>
+    <circle cx="748" cy="44" r="1.5" fill="#DBEEFF"/>
+    <circle cx="898" cy="72" r="1.2" fill="#DBEEFF"/>
   </g>
 
-  <g filter="url(#softGlow)" opacity="0.45">
-    <ellipse cx="220" cy="160" rx="86" ry="86" fill="#FF9D2E" fill-opacity="0.2"/>
-    <ellipse cx="220" cy="160" rx="122" ry="122" fill="#FF9D2E" fill-opacity="0.08"/>
+  <g filter="url(#soft)" opacity="0.5">
+    <ellipse cx="256" cy="170" rx="96" ry="96" fill="#FFB85A" fill-opacity="0.24"/>
+    <ellipse cx="256" cy="170" rx="136" ry="136" fill="#FFB85A" fill-opacity="0.1"/>
   </g>
 
   <g filter="url(#glow)">
-    <circle cx="220" cy="160" r="50" fill="url(#sunCore)"/>
+    <circle cx="256" cy="170" r="52" fill="url(#core)"/>
   </g>
 
-  <g opacity="0.9">
-    <ellipse cx="220" cy="160" rx="104" ry="62" stroke="url(#ringStroke)" stroke-width="1.5"/>
-    <ellipse cx="220" cy="160" rx="162" ry="96" stroke="url(#ringStroke)" stroke-width="1.5"/>
-    <ellipse cx="220" cy="160" rx="228" ry="134" stroke="url(#ringStroke)" stroke-width="1.5"/>
-    <ellipse cx="220" cy="160" rx="302" ry="176" stroke="url(#ringStroke)" stroke-width="1.5"/>
+  <g>
+    <ellipse cx="256" cy="170" rx="102" ry="64" stroke="url(#ring)" stroke-width="1.5"/>
+    <ellipse cx="256" cy="170" rx="154" ry="96" stroke="url(#ring)" stroke-width="1.5"/>
+    <ellipse cx="256" cy="170" rx="218" ry="132" stroke="url(#ring)" stroke-width="1.5"/>
   </g>
 
-  <g filter="url(#softGlow)">
-    <circle cx="324" cy="160" r="8" fill="#7DE7FF">
-      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#orbit1"/>
+  <g fill="#A8C8E8" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="1.2">
+    <text x="194" y="70">FRONTEND</text>
+    <text x="370" y="128">BACKEND</text>
+    <text x="74" y="190">DATABASE</text>
+    <text x="230" y="314">DEVOPS</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <circle r="10" fill="#4EC8FF">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitA"/>
       </animateMotion>
     </circle>
-    <path id="orbit1" d="M 116 160 A 104 62 0 1 0 324 160 A 104 62 0 1 0 116 160" fill="none"/>
+    <path id="orbitA" d="M154 170 A102 64 0 1 0 358 170 A102 64 0 1 0 154 170" fill="none"/>
 
-    <g>
-      <circle r="12" fill="#7CF7C4">
-        <animateMotion dur="11s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit2"/>
-        </animateMotion>
-      </circle>
-      <circle r="18" fill="none" stroke="#8CFFE3" stroke-opacity="0.35" stroke-width="1.4">
-        <animateMotion dur="11s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit2"/>
-        </animateMotion>
-      </circle>
-    </g>
-    <path id="orbit2" d="M 58 160 A 162 96 0 1 0 382 160 A 162 96 0 1 0 58 160" fill="none"/>
+    <circle r="12" fill="#44E6B2">
+      <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitB"/>
+      </animateMotion>
+    </circle>
+    <path id="orbitB" d="M102 170 A154 96 0 1 0 410 170 A154 96 0 1 0 102 170" fill="none"/>
 
-    <g>
-      <circle r="15" fill="#83B7FF">
-        <animateMotion dur="15s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit3"/>
-        </animateMotion>
-      </circle>
-      <circle r="23" fill="none" stroke="#9FCAFF" stroke-opacity="0.45" stroke-width="1.4">
-        <animateMotion dur="15s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit3"/>
-        </animateMotion>
-      </circle>
-    </g>
-    <path id="orbit3" d="M -8 160 A 228 134 0 1 0 448 160 A 228 134 0 1 0 -8 160" fill="none"/>
-
-    <g>
-      <circle r="10" fill="#F18BFF">
-        <animateMotion dur="21s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit4"/>
-        </animateMotion>
-      </circle>
-      <ellipse rx="20" ry="7" fill="none" stroke="#F7B1FF" stroke-opacity="0.55" stroke-width="1.2">
-        <animateMotion dur="21s" repeatCount="indefinite" rotate="auto">
-          <mpath href="#orbit4"/>
-        </animateMotion>
-      </ellipse>
-    </g>
-    <path id="orbit4" d="M -82 160 A 302 176 0 1 0 522 160 A 302 176 0 1 0 -82 160" fill="none"/>
+    <circle r="9" fill="#949DFF">
+      <animateMotion dur="16s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitC"/>
+      </animateMotion>
+    </circle>
+    <path id="orbitC" d="M38 170 A218 132 0 1 0 474 170 A218 132 0 1 0 38 170" fill="none"/>
   </g>
 
-  <g filter="url(#softGlow)">
-    <circle cx="790" cy="96" r="11" fill="#3BE1FF">
-      <animate attributeName="r" values="11;12.6;11" dur="3.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="858" cy="172" r="16" fill="#E56CFF">
-      <animate attributeName="cy" values="172;166;172" dur="5.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="720" cy="224" r="13" fill="#4AF2B0">
-      <animate attributeName="cx" values="720;726;720" dur="4.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <g opacity="0.82" filter="url(#softGlow)">
-    <path d="M620 96L690 132" stroke="#7DDFFF" stroke-opacity="0.34" stroke-width="1.2" stroke-dasharray="3 5">
-      <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.8s" repeatCount="indefinite"/>
+  <g opacity="0.74" stroke="#6FD6FF" stroke-width="1.4" stroke-dasharray="4 5" filter="url(#soft)">
+    <path d="M594 96L680 120">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.1s" repeatCount="indefinite"/>
     </path>
-    <path d="M612 186L704 214" stroke="#7DDFFF" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="3 5">
-      <animate attributeName="stroke-dashoffset" values="0;-16" dur="2.2s" repeatCount="indefinite"/>
+    <path d="M680 120L760 104">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.4s" repeatCount="indefinite"/>
     </path>
-    <path d="M754 106L832 160" stroke="#7DDFFF" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="3 5">
-      <animate attributeName="stroke-dashoffset" values="0;-16" dur="2s" repeatCount="indefinite"/>
+    <path d="M680 120L722 176">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M722 176L812 208">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M722 176L664 248">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M664 248L774 274">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.8s" repeatCount="indefinite"/>
     </path>
   </g>
 
-  <g transform="translate(628 104)" filter="url(#softGlow)">
-    <rect x="-8" y="-5" width="16" height="10" rx="2" fill="#D8FBFF"/>
-    <rect x="-20" y="-1" width="12" height="2" rx="1" fill="#8CF2FF"/>
-    <rect x="8" y="-1" width="12" height="2" rx="1" fill="#8CF2FF"/>
-    <rect x="-1" y="-12" width="2" height="7" rx="1" fill="#8CF2FF"/>
-    <circle cx="0" cy="0" r="1.7" fill="#12DFFF"/>
-    <animateTransform attributeName="transform" type="translate" values="628 104;644 96;628 104" dur="7s" repeatCount="indefinite"/>
+  <g fill="#C7E4FF" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="1.1">
+    <text x="560" y="90">PORTFOLIO</text>
+    <text x="656" y="114">ECOMMERCE</text>
+    <text x="764" y="98">CHAT APP</text>
+    <text x="730" y="170">DASHBOARD</text>
+    <text x="820" y="206">API HUB</text>
+    <text x="620" y="244">BLOG CMS</text>
+    <text x="782" y="272">AI TOOLS</text>
   </g>
 
-  <g opacity="0.38">
-    <path d="M0 286C114 252 210 246 314 274C408 300 518 302 620 276C734 246 828 246 960 284V320H0Z" fill="#081220"/>
-    <path d="M0 300C136 270 248 274 338 298C438 324 540 324 646 296C754 268 860 270 960 294V320H0Z" fill="#040912"/>
+  <g filter="url(#soft)">
+    <circle cx="594" cy="96" r="7" fill="#4AC4FF">
+      <animate attributeName="r" values="7;8.2;7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="120" r="10" fill="#6FE9BC">
+      <animate attributeName="r" values="10;11.2;10" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="104" r="8" fill="#96A0FF">
+      <animate attributeName="r" values="8;9.1;8" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="722" cy="176" r="11" fill="#F3A4FF">
+      <animate attributeName="cy" values="176;172;176" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="812" cy="208" r="9" fill="#66CEFF">
+      <animate attributeName="cx" values="812;816;812" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="664" cy="248" r="9" fill="#66E7C4">
+      <animate attributeName="cy" values="248;244;248" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="774" cy="274" r="8" fill="#FFBA73">
+      <animate attributeName="r" values="8;9.2;8" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <text x="952" y="34" text-anchor="end" fill="#EAF9FF" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="0.6">ROHIT // COSMIC CODE SYSTEM</text>
-  <text x="952" y="54" text-anchor="end" fill="#94D9E8" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="2.2">FULL-STACK JOURNEY . ORBITING IDEAS . BUILDING WORLDS</text>
+  <text x="932" y="30" text-anchor="end" fill="#E8F6FF" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="0.8">ROHIT // SKILL GALAXY</text>
+  <text x="932" y="50" text-anchor="end" fill="#99D6EA" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="2">PROJECT CONSTELLATION . ALWAYS EXPANDING</text>
 </svg>
