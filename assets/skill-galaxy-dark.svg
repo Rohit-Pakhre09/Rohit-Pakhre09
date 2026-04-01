@@ -123,13 +123,13 @@
     </g>
 
     <g fill="#C7E4FF" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="1.1">
-      <text x="560" y="90">PORTFOLIO</text>
-      <text x="656" y="114">ECOMMERCE</text>
-      <text x="764" y="98">CHAT APP</text>
-      <text x="730" y="170">DASHBOARD</text>
-      <text x="820" y="206">API HUB</text>
-      <text x="620" y="244">BLOG CMS</text>
-      <text x="782" y="272">AI TOOLS</text>
+      <text x="610" y="90">PORTFOLIO</text>
+      <text x="698" y="116">ECOMMERCE</text>
+      <text x="778" y="100">CHAT APP</text>
+      <text x="740" y="170">DASHBOARD</text>
+      <text x="826" y="208">API HUB</text>
+      <text x="678" y="246">BLOG CMS</text>
+      <text x="790" y="276">AI TOOLS</text>
     </g>
 
     <g filter="url(#soft)">
