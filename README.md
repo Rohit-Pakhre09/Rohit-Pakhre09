@@ -5,7 +5,7 @@
 
 <p align="left">I'm a passionate Full-Stack Developer focused on building scalable, user-friendly, and impactful web applications. My goal is to write clean, maintainable, and production-ready code that solves real-world problems. I thrive in environments that challenge me to learn, adapt, and grow.</p>
 
-<p align="left"><em>Always learning. Always building. Always improving.</em></p>
+<p align="left"><em>• Always learning. Always building. Always improving.</em></p>
 
 ---
 
@@ -62,31 +62,25 @@
 
 ---
 
-### Skill Galaxy + Project Constellation
-
-<p align="left">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./assets/skill-galaxy-dark-v3.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./assets/skill-galaxy-light-v3.svg"
-    />
-    <img
-      src="./assets/skill-galaxy-light-v3.svg"
-      alt="Animated skill galaxy with connected project constellation"
-      style="display:block; width:100%; max-width:960px; border-radius:22px; border:1px solid rgba(120, 170, 220, 0.45);"
-    />
-  </picture>
-</p>
+### Skill Galaxy | Project Constellation
 
 <p align="left">
   <a href="https://rohit-pakhre-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Try-Interactive%20Galaxy-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Interactive Galaxy" />
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="./assets/skill-galaxy-dark-v3.svg"
+      />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="./assets/skill-galaxy-light-v3.svg"
+      />
+      <img
+        src="./assets/skill-galaxy-light-v3.svg"
+        alt="Animated skill galaxy with connected project constellation"
+        style="display:block; width:100%; max-width:960px; border-radius:22px; border:1px solid rgba(120, 170, 220, 0.45);"
+      />
+    </picture>
   </a>
 </p>
-
-
 

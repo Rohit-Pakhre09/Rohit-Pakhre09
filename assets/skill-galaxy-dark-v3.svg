@@ -122,6 +122,25 @@
       <path d="M664 248L774 274"><animate attributeName="stroke-dashoffset" values="0;-18" dur="2.8s" repeatCount="indefinite"/></path>
     </g>
 
+    <g opacity="0.9" filter="url(#soft)">
+      <path id="dataPulseD1" d="M594 96L680 120" fill="none"/>
+      <path id="dataPulseD2" d="M680 120L722 176" fill="none"/>
+      <path id="dataPulseD3" d="M722 176L812 208" fill="none"/>
+      <path id="dataPulseD4" d="M722 176L664 248" fill="none"/>
+      <circle r="2.2" fill="#4AC4FF">
+        <animateMotion dur="2.8s" begin="0s" repeatCount="indefinite"><mpath href="#dataPulseD1"/></animateMotion>
+      </circle>
+      <circle r="2.2" fill="#6FE9BC">
+        <animateMotion dur="3.2s" begin="0.8s" repeatCount="indefinite"><mpath href="#dataPulseD2"/></animateMotion>
+      </circle>
+      <circle r="2.1" fill="#F3A4FF">
+        <animateMotion dur="2.9s" begin="1.1s" repeatCount="indefinite"><mpath href="#dataPulseD3"/></animateMotion>
+      </circle>
+      <circle r="2.1" fill="#96A0FF">
+        <animateMotion dur="3.1s" begin="0.4s" repeatCount="indefinite"><mpath href="#dataPulseD4"/></animateMotion>
+      </circle>
+    </g>
+
     <g fill="#C7E4FF" font-family="'Segoe UI', sans-serif" font-size="10" letter-spacing="1.1">
       <text x="610" y="90">PORTFOLIO</text>
       <text x="698" y="116">ECOMMERCE</text>
