@@ -130,11 +130,6 @@
     <path id="orbit4" d="M -82 160 A 302 176 0 1 0 522 160 A 302 176 0 1 0 -82 160" fill="none"/>
   </g>
 
-  <g transform="translate(580 160)" filter="url(#softGlow)">
-    <circle cx="0" cy="0" r="34" fill="#101F39" stroke="#284A78" stroke-width="1.5"/>
-    <circle cx="0" cy="0" r="24" fill="url(#planetBlue)" transform="scale(24)"/>
-  </g>
-
   <g transform="translate(580 160)">
     <circle r="32" fill="url(#planetBlue)"/>
     <path d="M-28 0C-12 -6 9 -4 28 6" stroke="#D5FBFF" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
