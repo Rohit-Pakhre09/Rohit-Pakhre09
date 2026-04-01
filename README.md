@@ -1,15 +1,15 @@
 <!-- <img src="https://github.com/Rohit-Pakhre09/Rohit-Pakhre09/blob/main/github-header-image.png" alt="Header Banner" /> -->
-<h1 align="left">Hi there, I'm Rohit Pakhre 👋</h1>
+<h1 align="left">Hi there, I'm Rohit Pakhre</h1>
 
 <h3 align="left">Full-Stack Developer | Connecting Logic With Creativity Through Code</h3>
 
 <p align="left">I'm a passionate Full-Stack Developer focused on building scalable, user-friendly, and impactful web applications. My goal is to write clean, maintainable, and production-ready code that solves real-world problems. I thrive in environments that challenge me to learn, adapt, and grow.</p>
 
-<p align="left"><em>• Always learning. Always building. Always improving.</em></p>
+<p align="left"><em>Always learning. Always building. Always improving.</em></p>
 
 ---
 
-### 🌐 Connect With Me
+### Connect With Me
 <p align="left">
   <a href="https://www.linkedin.com/in/rohit-pakhre/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -22,17 +22,16 @@
   </a>
 </p>
 
+---
+
+### My Current Focus
+- Mastering the **MERN Stack** (MongoDB, Express.js, React, Node.js) and strengthening my knowledge of **MySQL**.
+- Exploring **DevOps principles** with **AWS, Docker, and CI/CD** to build robust deployment pipelines.
+- Deepening my understanding of **Data Structures, Algorithms, and System Design**.
 
 ---
 
-### 🎯 My Current Focus
-- 🚀 Mastering the **MERN Stack** (MongoDB, Express.js, React, Node.js) and strengthening my knowledge of **MySQL**.
-- ⚡ Exploring **DevOps principles** with **AWS, Docker, and CI/CD** to build robust deployment pipelines.
-- 🧩 Deepening my understanding of **Data Structures, Algorithms, and System Design**.
-
----
-
-### 💻 My Tech Stack & Tools
+### My Tech Stack & Tools
 
 <table>
   <tr>
@@ -61,24 +60,23 @@
   </tr>
 </table>
 
-
 ---
 
-### 🐍 My Contribution Rhythm
+### My Coding Skyline
 
 <p align="left">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Rohit-Pakhre09/Rohit-Pakhre09/output/github-contribution-grid-snake-dark.svg"
+      srcset="./assets/skyline-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Rohit-Pakhre09/Rohit-Pakhre09/output/github-contribution-grid-snake.svg"
+      srcset="./assets/skyline-light.svg"
     />
     <img
-      src="https://raw.githubusercontent.com/Rohit-Pakhre09/Rohit-Pakhre09/output/github-contribution-grid-snake.svg"
-      alt="Premium game-inspired snake animation over the GitHub contribution graph"
+      src="./assets/skyline-light.svg"
+      alt="Animated coding skyline"
     />
   </picture>
 </p>
