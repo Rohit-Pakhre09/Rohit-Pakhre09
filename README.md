@@ -68,14 +68,14 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./assets/skyline-dark.svg"
+      srcset="./assets/skill-galaxy-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="./assets/skyline-light.svg"
+      srcset="./assets/skill-galaxy-light.svg"
     />
     <img
-      src="./assets/skyline-light.svg"
+      src="./assets/skill-galaxy-light.svg"
       alt="Animated skill galaxy with connected project constellation"
     />
   </picture>
@@ -86,3 +86,4 @@
     <img src="https://img.shields.io/badge/Try-Interactive%20Galaxy-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Interactive Galaxy" />
   </a>
 </p>
+
