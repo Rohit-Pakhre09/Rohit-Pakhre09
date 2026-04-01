@@ -130,15 +130,6 @@
     <path id="orbit4" d="M -82 160 A 302 176 0 1 0 522 160 A 302 176 0 1 0 -82 160" fill="none"/>
   </g>
 
-  <g transform="translate(580 160)">
-    <circle r="32" fill="url(#planetBlue)"/>
-    <path d="M-28 0C-12 -6 9 -4 28 6" stroke="#D5FBFF" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
-    <path d="M-18 16C-4 10 11 10 24 16" stroke="#0C6FD9" stroke-opacity="0.35" stroke-width="4.5" stroke-linecap="round"/>
-    <ellipse rx="58" ry="14" fill="none" stroke="#92F0FF" stroke-opacity="0.65" stroke-width="2.2" transform="rotate(-14)"/>
-    <ellipse rx="58" ry="14" fill="none" stroke="#92F0FF" stroke-opacity="0.25" stroke-width="6" transform="rotate(-14)"/>
-    <animateTransform attributeName="transform" additive="sum" type="rotate" values="0 0 0;360 0 0" dur="28s" repeatCount="indefinite"/>
-  </g>
-
   <g filter="url(#softGlow)">
     <circle cx="790" cy="96" r="11" fill="#3BE1FF">
       <animate attributeName="r" values="11;12.6;11" dur="3.4s" repeatCount="indefinite"/>
